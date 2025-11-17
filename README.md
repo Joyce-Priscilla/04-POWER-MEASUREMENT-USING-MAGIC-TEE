@@ -63,23 +63,25 @@ power coupled to thecollinear to that in the main arm, in dB. This value is arou
 
 **F.	Observation:**
 
-<img width="1076" height="204" alt="image" src="https://github.com/user-attachments/assets/ffc35e8b-a2c3-4534-9ee2-9b9fcc851645" />
+**Isolation measurement** (Tabulation)
+
+![Screenshot 2025-11-17 185930](https://github.com/user-attachments/assets/db8711d2-193b-4744-9e69-521f7228a57f)
 
 
-<img width="1080" height="224" alt="image" src="https://github.com/user-attachments/assets/daf889e7-93e8-426a-8243-77ab37678a24" />
+**Measurement of power division** (Tabulation)
+
+![Screenshot 2025-11-17 185951](https://github.com/user-attachments/assets/88f3bfb3-71ee-4744-87dd-b1829514d17c)
 
 
 **G.	Analysis of Results:**
 
-Isolation = A₁ − A₂ = 20.0 − 1.0 = 19.0 dB.
-Interpretation: only ~1/79 of the power fed into the E-arm appears at the H-arm (good isolation).
-Power division (coupling to collinear arm) = A₁ − A₂ = 20.0 − 17.0 = 3.0 dB.
-Interpretation: input power splits equally between the two collinear arms (each receives ≈ half the power).
+The measured power distribution showed correct sum and difference behavior between the E-arm and H-arm. A strong output at the sum port and a reduced/null output at the difference port confirmed proper phase characteristics. Slight deviations from ideal values occurred due to mismatching and insertion losses. Overall, the Magic Tee operated as expected for power combining and dividing.
 
 **H.	Conclusions:**
 
 Isolation between E and H arms (dB) = (A1 – A2) dB
-Coupling between collinear arms and E/H arms (dB) = (A1 – A2) dB
+
+Coupling between collinear arms and E/H arms (dB) = (A1 – A2) dB = 716mV
 
 **Precautions:**
 
@@ -91,8 +93,5 @@ Coupling between collinear arms and E/H arms (dB) = (A1 – A2) dB
 
 **Result:**
 
-Isolation between E and H arms ≈ 19 dB,
-
-power division in the collinear arms ≈ 3 dB (equal split).
-
-Thus, the experiment executed successfully.
+**Result:**
+The Magic Tee correctly demonstrated sum and difference power behavior, with higher power at the sum port and reduced or null power at the difference port, validating its proper operation.
